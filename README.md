@@ -14,7 +14,7 @@ Install by adding the Header File to your project and Add the lib inside C/C++ A
 ## Usage
 
 ```cpp
-#include "T5_ZM.h"
+#include "T5ZM.h"
 
 //Start by calling 
 
