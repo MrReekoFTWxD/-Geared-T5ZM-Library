@@ -35,7 +35,7 @@ Engine.CG_DrawRotatedPic(100,100,100,100,0,Color(255,0,0,255), "white");
 void YourHook(){
 	Engine.Init();
 	//Need your own ingame check here then do below WIll add a inGameCheck later
-		getStructs();
+		Engine.fillStructs();
 }
 
 BOOL APIENTRY DllMain( HMODULE hModule,DWORD  ul_reason_for_call,LPVOID lpReserved)
