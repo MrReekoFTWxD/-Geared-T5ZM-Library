@@ -22,7 +22,7 @@ Install by adding the Header File to your project and Add the lib inside C/C++ A
 
 Color_t Red = {1,0,0,1};
 /*
-Engine.Render.UI_DrawShader(100,100,100,100,0,Red, "white");
+Engine.CG_DrawRotatedPic(100,100,100,100,0,Red, "white");
 
  Then i set up where you can define colors just in the call instead of needing to have a section just for colors
 Engine.CG_DrawRotatedPic(100,100,100,100,0,Color(1,0,0,1), "white");
